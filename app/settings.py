@@ -42,7 +42,6 @@ INSTALLED_APPS = [
         'django.contrib.sessions',
         'django.contrib.messages',
         'django.contrib.staticfiles',
-        'portfolio',
         ]
 
 MIDDLEWARE = [
@@ -55,7 +54,7 @@ MIDDLEWARE = [
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
         ]
 
-ROOT_URLCONF = 'idea_art.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
         {
@@ -73,7 +72,7 @@ TEMPLATES = [
             },
         ]
 
-WSGI_APPLICATION = 'idea_art.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
