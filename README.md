@@ -138,9 +138,9 @@ docker compose web exec python manage.py migrate
 Other links
 ------------
 
-1. Automatic server installation: https://github.com/ArkadiuszStanislawLega/ansible-start-server
-2. Creating a backup: https://github.com/ArkadiuszStanislawLega/ansible-make-backup
-3. Sending a backup: https://github.com/ArkadiuszStanislawLega/ansible-push-backup
+1. Automatic server installation: <https://github.com/ArkadiuszStanislawLega/ansible-start-server>
+2. Creating a backup: <https://github.com/ArkadiuszStanislawLega/ansible-make-backup>
+3. Sending a backup: <https://github.com/ArkadiuszStanislawLega/ansible-push-backup>
 
 License
 -------
