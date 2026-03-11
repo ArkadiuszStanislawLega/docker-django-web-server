@@ -131,8 +131,8 @@ If everything has been changed correctly, after running the commands below in th
 
 ~~~bash
 docker compose up -d --build 
-docker compose web exec python manage.py collectstatic
-docker compose web exec python manage.py migrate
+docker compose exec web python manage.py collectstatic
+docker compose exec web python manage.py migrate
 ~~~
 
 Other links
